@@ -1,5 +1,5 @@
 1:FirstUser:dog:French bulldog:newborn:female:yes:yes:yes: Good Dog.:George Harrison:geoh@gmail.com
 2:FirstUser:cat:Snowshoe:mature:male:yes:no:no:Softness ball of fur :Sam Halop:halopmail@gmail.com
 3:FirstUser:dog:Pug:senior:male:no:yes:no: Romeo:Carole Carole:carhaha@gmail.com
-4:Micoloso:dog:Golden Retriever:junior:male:yes:yes:yes: Good golden Boy:Mico Loso:Micoloso@gmail.com
-5:Ewan1:cat:siamese:newborn:female:no:yes:no:straight from siam:Ewan David:ewantcb@gmail.com
+4:Micoloso:dog:Golden Retriever:junior:male:yes:yes:yes: Good golden Boy:Mico Loso:Mico@gmail.com
+5:Ewan1:cat:siamese:newborn:female:no:yes:no:straight from siam:Ewan David:ewan@gmail.com
