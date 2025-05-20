@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.page {
+    background-color: #F1F1F1
+}
+
+#date-time {
+    font-family: Calibri;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding-right: 50px;
+}
+
+.header {
+    color: #593737;
+    font-family: stencil;
+    background-color: #A8DB9A;
+    margin: 0%;
+    padding-left: 50px;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.header-title {
+    font-family: stencil;
+    color: #593737;
+    font-size: 24px;
+}
+
+.header-right {
+    text-align: right;
+}
+
+.logotable {
+    border: 0;
+}
+
+#auth-buttons {
+    text-align: right; 
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    display: inline;
+}
+
+#auth-buttons button{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#auth-buttons form{
+    display: inline;
+}
+
+#auth-buttons button:hover{
+    background-color: #A5DCE6;
+}
+
+#date-time {
+    color: black;
+    font-family: calibri;
+}
+
+#container {
+    display: flex;
+    flex: 1;
+    height: 100%;
+}
+
+.nav {  
+    background-color: #F1F1F1;
+    list-style-type: none;
+    font-weight: bold;
+    font-family: helvetica;
+    padding: 0%;   
+    width: 250px;
+    height: 100%;
+    flex-shrink: 0;
+}
+.nav li a {
+    text-decoration: none;
+    display: block;
+}
+.currentPage a {
+    background-color: #c8c964;
+    color: white;
+    padding: 5%;
+}
+.otherPage a {
+    background-color: #F1F1F1;
+    color: #593737;
+    padding: 5%;
+}
+.nav .otherPage a:hover{
+    background-color: #555555;
+    color:white;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: aliceblue;
+}
+
+#home {
+    text-align: center;
+    font-family: Calibri;
+    color: #593737;
+}
+#find {
+    text-align: center;
+    font-family: Calibri;
+    color: #593737;
+}
+#giveAway {
+    text-align: center;
+    font-family: Calibri;
+    color: #593737;
+}
+
+#additionalComments {
+    width: 300px;
+    height: 100px;
+}
+
+.adoptForm{
+    font-weight: bold;
+    padding: 10px;
+    margin: 0px auto;
+    width: 600px;
+    border: 20px solid #E0EAF6;
+    border-radius: 10%;
+    background-color: #D1E3F6;
+    text-align: center;
+}
+label {
+    font-family: verdana;
+    color: #2D5920;
+}
+#careinfo {
+    font-family: Arial;
+    color: #7C5F5F;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.caretitle {
+    text-align: center;
+    color: #593737;
+    font-family: stencil;
+}
+
+.centerImage{
+    display: block;
+    margin: auto;
+}
+
+#loginHeader {
+    text-align: center;
+    color: #593737;
+    font-family: Verdana;
+}
+
+form#createAccountForm {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 20px solid #E0EAF6;
+    border-radius: 10px;
+    background-color: #D1E3F6;
+}
+
+form#createAccountForm button:hover {
+   background-color: rgb(226, 206, 206);
+}
+
+form#loginForm {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 20px solid #DAEECD;
+    border-radius: 10px;
+    background-color: #B5E3C2;
+}
+form#loginForm button:hover {
+    background-color: rgb(226, 206, 206);
+}
+
+#loginMessage {
+    text-align: center;
+}
+
+#accountMessage {
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #7C5F5F;
+    color: white;
+    text-align: center;
+    font-family: Calibri;
+    margin: 0%;
+    padding: 5px;
+    width: 100%;
+    position: relative;
+}
+.footer a {
+    color: rgb(211, 165, 165);
+}
+.footer a:hover {
+    color: rgb(226, 206, 206);
+}

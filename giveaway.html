@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY TAILS - Pet to Give Away</title>
+    <link rel="stylesheet" href="stylesQ8.css">
+    <script src="ShelterScript.js"></script>
+</head>
+<body class="page">
+    <header class="header">
+        <div class="header-row">
+            <div class="header-left">
+                <a href="home.html">
+                    <img src="https://happytailsma.com/wp-content/uploads/2023/08/Happy-Tails-Logo-2023.png" alt="LOGO NOT FOUND" height="100">
+                </a>
+                <h1 class="header-title">HAPPY TAILS SHELTER</h1>
+            </div>
+    
+            <div class="header-right">
+                <div id="date-time"></div>
+                <div id="auth-buttons">
+                    <form action="login.html" method="get" style="display: inline;">
+                        <button type="submit">Login</button>
+                    </form>
+                    <form action="/logout" method="get" style="display: inline;">
+                        <button type="submit">Logout</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="container">
+        <nav class="nav">
+            <ul>
+                <li class="otherPage"><a href="home.html"> Home</a></li>
+                <li class="otherPage"><a href="find.html"> Find a dog/cat</a></li>
+                <li class="otherPage"><a href="dogCare.html"> Dog Care</a></li>
+                <li class="otherPage"><a href="catCare.html"> Cat Care</a></li>
+                <li class="currentPage"><a href="giveaway.html"> Have a pet to give away</a></li>
+                <li class="otherPage"><a href="createAccount.html"> Create Account</a></li>
+                <li class="otherPage"><a href="contact.html"> Contact Us</a></li>
+            </ul>
+        </nav>
+    
+        <main class="content">
+            <section id="giveAway">
+                <hr> <h2>~ Pet to Give Away Form ~</h2> <hr><br>
+                <form class="adoptForm" method="post" action="/submitPet" onsubmit="return validateGiveaway();">
+                    <br>
+                    <label> Select Animal </label> <br>
+                    Dog <input type="radio" id="dog" name="animal" value="dog"> 
+                    Cat <input type="radio" id="cat" name="animal" value="cat">
+
+                    <br><br>
+
+                    <label for="breed"> Animal Breed </label> <br>
+                    <input type="text" id="breed" name="breed" placeholder="ex: French Bulldog" required>
+                    
+                    <br><br>
+
+                    <label for="age"> Age Range</label> <br>
+                    <select id="age" name="age">
+                        <option value="choose"> Choose </option>
+                        <option value="newborn"> Newborn </option>
+                        <option value="junior"> Junior </option>
+                        <option value="mature"> Mature </option>
+                        <option value="senior"> Senior </option>
+                    </select>
+
+                    <br><br>
+
+                    <label> Gender</label> <br>
+                    Female <input type="radio" id="female" name="gender" value="female"> 
+                    Male <input type="radio" id="male" name="gender" value="male">
+
+                    <br><br>
+
+                    <label>Gets Along with other Dogs? </label> <br>
+                    Yes <input type="radio" id="yesGetAlongDog" name="getAlongDog" value="yes"> 
+                    No <input type="radio" id="noGetAlongDog" name="getAlongDog" value="no">
+
+                    <br><br>
+
+                    <label> Gets Along with other Cats? </label> <br>
+                    Yes <input type="radio" id="yesGetAlongCat" name="getAlongCat" value="yes"> 
+                    No <input type="radio" id="noGetAlongCat" name="getAlongCat" value="no">
+
+                    <br><br>
+
+                    <label> Suitable for a family with small children? </label> <br>
+                    Yes <input type="radio" id="yesGetAlongChild" name="getAlongChild" value="yes"> 
+                    No <input type="radio" id="noGetAlongChild" name="getAlongChild" value="no">
+
+                    <br><br>
+
+                    <label for="additionalComments"> Additional Comments: </label> <br>
+                    <textarea id="additionalComments" name="additionalComments"> </textarea>
+
+                    <br><br>
+
+                    <label for="currentOwner"> Owner's Full Name </label> <br>
+                    <input type="text" id="currentOwner" name="currentOwner" required>
+                    
+                    <br><br>
+
+                    <label for="ownerEmail"> Email Address </label> <br>
+                    <input type="email" id="ownerEmail" name="ownerEmail" required>
+                    
+                    <br><br>
+
+                    <button type="submit"> Submit </button> 
+                    <button type="reset"> Clear </button>
+                    <br><br>
+                </form> 
+            </section>
+        </main>
+
+    </div>
+
+    <footer class="footer">
+        <p> &copy; 2025 Happy Tails Shelter | All rights reserved </p>
+        <a href="privacy.html">Privacy/Disclaimer</a>
+      
+    </footer>
+    
+</body>
+</html>
